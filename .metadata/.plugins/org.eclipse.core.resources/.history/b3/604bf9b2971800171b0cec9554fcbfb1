@@ -1,0 +1,24 @@
+package examples;
+import java.util.Scanner; 
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int firstNumber; 
+		int secondNumber; 
+		int sum;
+		int defference; 
+		int average; 
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Please enter an integer >> ");
+		firstNumber = input.nextInt();
+		System.out.print("Please enter another integer >> ");
+		secondNumber = input.nextInt();
+		
+		
+	                
+	}
+
+}
