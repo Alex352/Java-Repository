@@ -1,6 +1,6 @@
-package excercises;
+package gameZone2;
 
-public class MovieQuoteInfo {
+public class RandomGuessMatch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
