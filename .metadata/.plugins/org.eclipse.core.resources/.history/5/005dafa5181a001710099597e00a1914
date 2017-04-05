@@ -19,7 +19,7 @@ public class NauticalMilesInteractive {
 		totalKilo = mileInput * kilometers; 
 		totalNM = 	mileInput * nauticalMiles;
 
-		System.out.print("There are " + totalNM + " nautical miles and " + totalKilo + " kilometers in " + mileInput + " miles");
+		System.out.print("");
 	}
 
 }
