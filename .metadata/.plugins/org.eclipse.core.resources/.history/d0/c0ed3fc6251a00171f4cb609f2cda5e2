@@ -14,9 +14,9 @@ public class InchesToFeet {
 		inches = input.nextInt();
 		
 		feet = inches/12;
-		remainder = inches%12;
+		remainder = inches-12;
 		
-		System.out.println(inches + "\" equals " + feet + "\' " + remainder + "\"");
+		System.out.print("");
 		
 	}
 
