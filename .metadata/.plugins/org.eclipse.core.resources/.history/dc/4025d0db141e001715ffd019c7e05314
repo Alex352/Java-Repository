@@ -5,9 +5,9 @@ public class SpaService {
 	public static void main(String[] args){}
 		// TODO Auto-generated method stub
 		public double price;
-	    public void setServiceDescription(String service)
+	    public void getServiceDescription(String service)
 	    {
-	       String setServiceDescription = service;
+	       serviceDescription = service;
 	    }
 	    public void setPrice(double pr)
 	    {

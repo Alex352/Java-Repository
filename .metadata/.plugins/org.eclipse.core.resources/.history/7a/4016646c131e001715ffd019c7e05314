@@ -6,7 +6,7 @@ public class ParadiseInfo2 {
 		// TODO Auto-generated method stub
 		 double price;
 		 double discount;
-		 double savings = 0;
+		 double savings;
 		   Scanner keyboard = new Scanner(System.in);
 		      System.out.print("Enter cutoff price for discount >>");
 		      price = keyboard.nextDouble();
@@ -24,7 +24,7 @@ public class ParadiseInfo2 {
 		   public static void displayInfo()
 		   {
 		      System.out.println("Paradise Day Spa wants to pamper you.");
-		      System.out.println("We will make you look good.");
+		      System.out.println("we will make you look good.");
 		   }
 		public static double computeDiscountInfo(double pr, double dscnt)
 		   {
