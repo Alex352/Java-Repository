@@ -98,13 +98,6 @@ public class DelgadosTacos {
 				+ (saladOrdered * saladPrice) + (nachosOrdered * nachosPrice) 
 				+ (lasagnaOrdered * lasagnaPrice);
 		
-		System.out.println("You ordered " + tacoOrdered + " Tacos, " + burritoOrdered + " burritos, " + enchaladaOrdered + 
-				" enchaladas, " + waterOrdered + " waters, " + cevicheOrdered + " ceviches, " + popOrdered + 
-				" pops, " + riceOrdered + " pounds of rice, " + saladOrdered + " salads, " + nachosOrdered + 
-				" nachos, and " + lasagnaOrdered + " lasagnas, for a total price of " + totalPrice);
-				
-		
-		
 	}
 
 }
