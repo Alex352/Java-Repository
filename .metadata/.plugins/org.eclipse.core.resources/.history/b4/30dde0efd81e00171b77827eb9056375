@@ -1,0 +1,36 @@
+package delgadoTacos;
+
+public class DelgadosTacos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double tacoPrice = .99;
+		double burritoPrice = 5.99;
+		double enchaladaPrice = 7.99;
+		double waterPrice = .75;
+		double cevichePrice = 8.99;
+		double popPrice = 1.99;
+		double ricePrice = 4.99;
+		double saladPrice = 6.99;
+		double nachosPrice = 2.99;
+		double lasagnaPrice = 19.99;
+		
+		
+		System.out.println("**********************************");
+		System.out.println("*Tacos = " + tacoPrice);
+		System.out.println("*Burritos = " + burritoPrice);
+		System.out.println("*Enchalada = " + enchaladaPrice);
+		System.out.println("*Water = " + waterPrice);
+		System.out.println("*Ceviche = " + cevichePrice);
+		System.out.println("*Pop = " + popPrice);
+		System.out.println("*Rice = " + ricePrice);
+		System.out.println("*Salad = " + saladPrice);
+		System.out.println("*Nachos = " + nachosPrice);
+		System.out.println("*Lasagna = " + lasagnaPrice);
+		System.out.println("**********************************");
+		
+		
+	}
+
+}
