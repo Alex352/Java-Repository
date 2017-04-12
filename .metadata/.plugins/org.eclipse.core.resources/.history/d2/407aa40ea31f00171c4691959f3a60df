@@ -1,33 +1,28 @@
 package delgadoTacos;
 import java.util.Scanner;
-
 public class DelgadosTacos {
-	static double tacoPrice = .99;
-	static double burritoPrice = 5.99;
-	static double enchaladaPrice = 7.99;
-	static double waterPrice = .75;
-	static double cevichePrice = 8.99;
-	static double popPrice = 1.99;
-	static double ricePrice = 4.99;
-	static double saladPrice = 6.99;
-	static double nachosPrice = 2.99;
-	static double lasagnaPrice = 19.99;
-	static double totalPrice;
-	private static Scanner inputDevice;
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		
 		
 		menu();
-		Ordermenu();
-		salesTax(totalPrice);
+	
 		
 	}
-	public static void Ordermenu()
+	public static void menu()
 	{
-		
+		double tacoPrice = .99;
+		double burritoPrice = 5.99;
+		double enchaladaPrice = 7.99;
+		double waterPrice = .75;
+		double cevichePrice = 8.99;
+		double popPrice = 1.99;
+		double ricePrice = 4.99;
+		double saladPrice = 6.99;
+		double nachosPrice = 2.99;
+		double lasagnaPrice = 19.99;
 		
 		int tacoOrdered;  
 		int burritoOrdered;
@@ -40,7 +35,21 @@ public class DelgadosTacos {
 		int nachosOrdered;
 		int lasagnaOrdered;
 		
-		inputDevice = new Scanner(System.in);
+		Scanner inputDevice = new Scanner(System.in);
+		
+		
+		System.out.println("**********************************");
+		System.out.println("*Tacos = " + tacoPrice);
+		System.out.println("*Burritos = " + burritoPrice);
+		System.out.println("*Enchalada = " + enchaladaPrice);
+		System.out.println("*Water = " + waterPrice);
+		System.out.println("*Ceviche = " + cevichePrice);
+		System.out.println("*Pop = " + popPrice);
+		System.out.println("*Rice = " + ricePrice);
+		System.out.println("*Salad = " + saladPrice);
+		System.out.println("*Nachos = " + nachosPrice);
+		System.out.println("*Lasagna = " + lasagnaPrice);
+		System.out.println("**********************************");
 		
 		
 		System.out.println("How many tacos do you want? >>>> ");
@@ -83,7 +92,7 @@ public class DelgadosTacos {
 		lasagnaOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
 		
-		totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice) + (enchaladaOrdered * enchaladaPrice) 
+		double totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice) + (enchaladaOrdered * enchaladaPrice) 
 				+ (waterOrdered * waterPrice) + (cevicheOrdered * cevichePrice) 
 				+ (popOrdered * popPrice) + (riceOrdered * ricePrice) 
 				+ (saladOrdered * saladPrice) + (nachosOrdered * nachosPrice) 
@@ -96,29 +105,6 @@ public class DelgadosTacos {
 				
 		
 		
-	}
-	
-	public static void salesTax(double totalPrice)
-	{
-		double withTax;
-		double salesTax = 1.075;
-		withTax = salesTax * totalPrice;
-		System.out.println("Your total with tax is " + withTax);
-	}
-	public static void menu()
-	{
-		System.out.println("**********************************");
-		System.out.println("*Tacos = " + tacoPrice);
-		System.out.println("*Burritos = " + burritoPrice);
-		System.out.println("*Enchalada = " + enchaladaPrice);
-		System.out.println("*Water = " + waterPrice);
-		System.out.println("*Ceviche = " + cevichePrice);
-		System.out.println("*Pop = " + popPrice);
-		System.out.println("*Rice = " + ricePrice);
-		System.out.println("*Salad = " + saladPrice);
-		System.out.println("*Nachos = " + nachosPrice);
-		System.out.println("*Lasagna = " + lasagnaPrice);
-		System.out.println("**********************************");
 	}
 
 }
