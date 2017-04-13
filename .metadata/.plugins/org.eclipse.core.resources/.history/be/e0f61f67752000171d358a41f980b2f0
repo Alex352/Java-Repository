@@ -1,0 +1,12 @@
+package gameZonepage178;
+
+public class PickTwoCards {
+
+	
+public static void main(String[] args){
+	}
+	final int CARDS_IN_SUIT = 13;
+	card myCard = new card();
+	card yourCard = new card();
+	myValue = 
+}

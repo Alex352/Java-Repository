@@ -5,7 +5,6 @@ public class Card {
 	private char suit;
 	private int value;
 	
-	
 			public char getSuit()
 			{
 			return suit;
@@ -20,6 +19,7 @@ public class Card {
 			}
 			public void setValue(int v, int myValue)
 			{
-			value = v;
+			int s;
+			value = s;
 			}
 }
