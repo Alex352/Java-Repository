@@ -1,0 +1,60 @@
+package excersises;
+import java.util.Scanner;
+public class PizzaChoice 
+{
+
+	public static void main(String[] args) 
+	{// TODO Auto-generated method stub
+		String choice;
+		String choice2;
+		int toppingChoice;
+		double large = 10.99;
+		double medium = 7.99;
+		double small = 4.99;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Would you like a pizza? Yes or No>>>>>>");
+		choice = input.nextLine();
+		
+		if("Yes".equals(choice) ||"yes".equals(choice)||"Y".equals(choice)||"y".equals(choice) );
+		{
+			System.out.println("You said" + choice + " to eating pizza");
+			System.out.println("Please choose a topping 1 for Hamburger, 2 for Peperoni, or 3 for Canadian Bacon");
+			toppingChoice = input.nextInt();
+			{
+			System.out.println("You said hamburger pizza, what size do you want? Small, Medium, or Large");
+			choice2 = input.nextLine();
+			}
+			if(toppingChoice == 1)
+			{
+				System.out.println("You said hamburger pizza, what size do you want? Small, Medium, or Large");
+			}
+			if(toppingChoice == 2)
+			{
+				System.out.println("You said peperoni pizza, what size do you want? Small, Medium, or Large");
+			}
+			if(toppingChoice == 3)
+			{
+				System.out.println("You said canadian bacon pizza, what size do you want? Small, Medium, or Large");
+				if(choice2.equals("small"))
+				{
+					System.out.println("You chose a small pizza that will be " + small + ".");
+				}
+				if(choice2.equals("medium"))
+				{
+					System.out.println("You chose a medium pizza that will be " + medium + ".");
+				}
+				if(choice2.equals("large"))
+				{
+					System.out.println("You chose a large pizza.");
+				}
+			
+			}
+			//here you're going to display the price
+	
+			
+			//we do not have that size
+		}
+	}
+
+}
