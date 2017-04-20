@@ -29,82 +29,60 @@ public class DelgadosTacos {
 	{
 		
 		String choice;
-		int tacoOrdered =0;  
-		int burritoOrdered =0;
-		int enchaladaOrdered =0;
-		int waterOrdered =0;
-		int cevicheOrdered =0;
-		int popOrdered =0;
-		int riceOrdered =0;
-		int nachosOrdered = 0;
-		int saladOrdered =0;
-		int lasagnaOrdered =0;
-		int menuOrder;
+		int tacoOrdered;  
+		int burritoOrdered;
+		int enchaladaOrdered;
+		int waterOrdered;
+		int cevicheOrdered;
+		int popOrdered;
+		int riceOrdered;
+		int saladOrdered;
+		int nachosOrdered;
+		int lasagnaOrdered;
 		
 		inputDevice = new Scanner(System.in);
 		
-		System.out.print("From the menu, which item would you like to order?>>>>>");
-		menuOrder = inputDevice.nextInt();
-		if(menuOrder == 1)
-		{
+		
 		System.out.println("How many tacos do you want? >>>> ");
 		tacoOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 2)
-		{
+		
 		System.out.println("How many burritos do you want? >>>> ");
 		burritoOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 3)
-		{
+		
 		System.out.println("How many enchaladas do you want? >>>> ");
 		enchaladaOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 4)	
-		{
+		
 		System.out.println("How many waters do you want? >>>> ");
 		waterOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 5)
-		{
+		
 		System.out.println("How many ceviches do you want? >>>> ");
 		cevicheOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 6)	
-		{
+		
 		System.out.println("How many pops do you want? >>>> ");
 		popOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 7)
-		{
+		
 		System.out.println("How much rice do you want? >>>> ");
 		riceOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 8)
-		{
+		
 		System.out.println("How many salads do you want? >>>> ");
 		saladOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 9)
-		{	
+		
 		System.out.println("How many nachos do you want? >>>> ");
 		nachosOrdered = inputDevice.nextInt();
 		inputDevice.nextLine(); 
-		}
-		if(menuOrder == 10)
-		{
+		
 		System.out.println("How much lasagna do you want? >>>> ");
 		lasagnaOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
+		
 		totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice) + (enchaladaOrdered * enchaladaPrice) 
 				+ (waterOrdered * waterPrice) + (cevicheOrdered * cevichePrice) 
 				+ (popOrdered * popPrice) + (riceOrdered * ricePrice) 

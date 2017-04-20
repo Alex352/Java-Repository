@@ -12,7 +12,7 @@ public class PizzaChoice {
 		double small = 4.99;
 		
 		Scanner input = new Scanner(System.in);
-		
+		do{
 		System.out.println("Would you like a pizza? Yes or No>>>>>>");
 		choice = input.nextLine();
 		
@@ -51,5 +51,5 @@ public class PizzaChoice {
 						System.out.println("I am sorry, we do not have that topping.");
 					}
 		}
-	}
+	}while();
 }

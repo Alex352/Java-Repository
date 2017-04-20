@@ -62,49 +62,39 @@ public class DelgadosTacos {
 		System.out.println("How many enchaladas do you want? >>>> ");
 		enchaladaOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 4)	
 		{
+		if(menuOrder == 4)	
+		}
 		System.out.println("How many waters do you want? >>>> ");
 		waterOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 5)
 		{
+		if
+		}
 		System.out.println("How many ceviches do you want? >>>> ");
 		cevicheOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 6)	
-		{
+		
 		System.out.println("How many pops do you want? >>>> ");
 		popOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 7)
-		{
+		
 		System.out.println("How much rice do you want? >>>> ");
 		riceOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 8)
-		{
+		
 		System.out.println("How many salads do you want? >>>> ");
 		saladOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
-		if(menuOrder == 9)
-		{	
+		
 		System.out.println("How many nachos do you want? >>>> ");
 		nachosOrdered = inputDevice.nextInt();
 		inputDevice.nextLine(); 
-		}
-		if(menuOrder == 10)
-		{
+		
 		System.out.println("How much lasagna do you want? >>>> ");
 		lasagnaOrdered = inputDevice.nextInt();
 		inputDevice.nextLine();
-		}
+		
 		totalPrice = (tacoPrice * tacoOrdered) + (burritoOrdered * burritoPrice) + (enchaladaOrdered * enchaladaPrice) 
 				+ (waterOrdered * waterPrice) + (cevicheOrdered * cevichePrice) 
 				+ (popOrdered * popPrice) + (riceOrdered * ricePrice) 
