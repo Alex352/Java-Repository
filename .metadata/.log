@@ -1199,3 +1199,17 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2017-04-20 11:34:00.143
 !MESSAGE Installedjava
+
+!ENTRY org.eclipse.jface.text 2 0 2017-04-20 13:05:25.230
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ltk.core.refactoring.TextFileChange.acquireDocument(TextFileChange.java:213)
+	at org.eclipse.jdt.core.refactoring.CompilationUnitChange.acquireDocument(CompilationUnitChange.java:84)
+	at org.eclipse.ltk.core.refactoring.TextChange.getCurrentDocument(TextChange.java:311)
+	at org.eclipse.ltk.core.refactoring.TextChange.getPreviewDocument(TextChange.java:527)
+	at org.eclipse.ltk.core.refactoring.TextChange.getPreviewDocument(TextChange.java:403)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:143)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.RefactoringCorrectionProposal.getAdditionalProposalInfo(RefactoringCorrectionProposal.java:71)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
