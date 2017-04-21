@@ -3,9 +3,6 @@ import java.util.Scanner;
 public class FixDebugFive3 {
 
 	
-	private static final int LOW = 0;
-	private static final int HIGH = 0;
-	private static final int CUTOFF = 0;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  int item;
@@ -20,10 +17,8 @@ public class FixDebugFive3 {
 	   {
 	           
 	      System.out.println("Please enter item number");
-	      Scanner input = null;
-		int item = input.nextInt();
-	      String output;
-		if(item < LOW)
+	      item = input.nextInt();
+	      if(item < LOW)
 	         output = "Item number too low";
 	      else
 	        if(item > HIGH)
