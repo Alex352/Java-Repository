@@ -1,10 +1,8 @@
 package excersises;
-import java.util.Scanner;
+
 public class CondoSales {
 
 	public static void main(String[] args) {
-		
-	}
 		// TODO Auto-generated method stub
 
 		public static final double PARKVIEW_PRICE = 150000.00;
@@ -19,8 +17,8 @@ public class CondoSales {
 		static double salesPrice;
 		static int parking;
 		static double condoAndParking;
-	
-		{
+		
+			{
 				Scanner enter = new Scanner(System.in);
 				System.out.println("Please enter your condominium selection:\n1 - Park View\n2 - Golf " +
 				                   "Course View\n3 - Lake View");
@@ -68,4 +66,4 @@ public class CondoSales {
 						System.out.println("The price of condo with no garage is " + salesPrice);
 	}
 
-}}
+}
