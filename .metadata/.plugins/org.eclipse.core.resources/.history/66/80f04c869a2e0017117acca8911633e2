@@ -53,12 +53,7 @@ public class Pay {
 				if(retirmentString.equals("Yes"));
 				{
 					//Calculate retirement pay here
-					//3% of gross pay
-					//netPay = grossPay * 0.03;
-					//JoptionPane your total net pay after retirement is x
-					
 				}
-				if(retirementString.equals("No"));{
 			}
 		}
 		
