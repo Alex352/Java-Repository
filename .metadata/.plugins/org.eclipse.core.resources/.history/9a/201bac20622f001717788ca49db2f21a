@@ -1,0 +1,50 @@
+package gameZone;
+import javax.swing.JOptionPane;
+import java.util.Random;
+public class RockPaperScissors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random r = new Random();
+		int result1 = r.nextInt(3) + 1;
+		int rock = 1, paper = 2, scissors = 3;
+		String resultString;
+		String result;
+		String usersAnswer;
+		int answerInt;
+		String userPick;
+		String computerPick;
+		usersAnswer= JOptionPane.showInputDialog(null, "Choose: \n1 for Rock \n2 for Paper \n3 for Scissors");
+		answerInt = Integer.parseInt(usersAnswer);
+		
+		if(answerInt == 1)//rock
+		{
+			usersAnswer = "Rock";
+		}
+		else
+			if(answerInt == 2)
+			{
+				usersAnswer = "Paper";
+			}
+			else 
+				usersAnswer = "Scissors";
+		if(result1 == 1)
+			computerPick = "Rock";
+		else
+			if(result1 == 2)
+				computerPick = "Paper";
+			else
+				computerPick = "Scissors";
+		if(answerInt == 1)
+			if(result1 == 1)
+				result = "Tie, Stupid human";
+			else
+				if(result1 == 2)
+					result = "Computer Wins, Humans are stupid";
+				else
+					result = "Stupid Computer, Humans rule";
+		JOptionPane.showMessageDialog(null, "You picked " + usersAnswer);
+		
+	}
+
+}
