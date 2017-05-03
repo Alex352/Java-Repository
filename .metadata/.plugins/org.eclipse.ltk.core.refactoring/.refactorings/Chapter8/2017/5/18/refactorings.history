@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;youDoIt.page398&apos; to &apos;DemoArray&apos;&#x0D;&#x0A;- Original project: &apos;Chapter8&apos;&#x0D;&#x0A;- Original element: &apos;youDoIt.page398&apos;&#x0D;&#x0A;- Renamed element: &apos;youDoIt.DemoArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;page398&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;youDoIt{page398.java[page398" matchStrategy="1" name="DemoArray" qualified="false" references="true" similarDeclarations="false" stamp="1493830866369" textual="false" version="1.0"/>
+</session>

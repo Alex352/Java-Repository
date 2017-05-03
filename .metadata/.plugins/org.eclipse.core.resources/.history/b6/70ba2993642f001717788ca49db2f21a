@@ -1,0 +1,44 @@
+package excersises;
+import java.util.Scanner;
+public class TestScoreStats {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double score = 0;
+
+	       double totalScore = 0;
+
+	       double count = 0;
+
+	       double average = 0;
+
+	       Scanner input = new Scanner(System.in);
+
+
+	      System.out.println("Student 1");
+	      System.out.printf("Enter Your Score: ");
+	      score = input.nextDouble();
+
+
+
+	      while (score != -1){
+	          System.out.printf("Enter Your Score: ");
+	          totalScore = totalScore + score;
+	          score = input.nextDouble();
+	          count++;
+	          average = totalScore / count;
+
+	          if (score == -1){
+	              System.out.printf("Average Score = %.2f\n ",average);
+	              count = 0;
+	              score = 0;
+	              totalScore = 0;
+	              average = 0;
+	              System.out.println("Student 2");
+	              System.out.printf("Enter Your Score: ");
+	              score = input.nextDouble ();
+	              count++;
+	              average = totalScore / count;
+	}
+	          
+}

@@ -1,0 +1,13 @@
+package excersises;
+import java.util.Scanner;
+public class TestScoreStats {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+	
+	
+	
+	
+	}
+}

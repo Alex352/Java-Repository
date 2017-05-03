@@ -1,0 +1,17 @@
+package excersises;
+
+public class AverageOfQuizzes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] scores = new int[10];
+		int score = 0;
+		int count = 0;
+		int total = 0;
+		final int QUIT = 999;
+		final int max = 10;
+		
+		Scanner input = new scanner(System.in);
+	}
+
+}
