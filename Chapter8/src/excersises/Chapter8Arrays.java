@@ -1,0 +1,34 @@
+package excersises;
+
+public class Chapter8Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] values = {23, 6, 47, 35, 2, 14};
+		int total = 0;
+		int highest = 0;
+		int odd = 0;
+		for(int i = 0; i<6; i = i +1)
+		{
+			total = total + values[i];
+			
+		}
+		System.out.println("The average is " + total/6);
+		
+		for(int j = 0; j <6; j++)
+		{
+			if(highest < total)
+			{
+				highest = values [j];
+			}
+			if(odd < values[j] % 2)
+		{
+				System.out.println("The odd numbers are " + odd);	
+		{
+		System.out.println("The highest number is " + highest);
+	}
+	}
+		}
+	}
+	}

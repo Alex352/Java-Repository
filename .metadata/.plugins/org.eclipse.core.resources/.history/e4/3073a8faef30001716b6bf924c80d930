@@ -1,0 +1,68 @@
+package excersises;
+import java.util.Scanner;
+public class TestScoreStats {
+
+ 
+		// TODO Auto-generated method stub
+		 private int total;   //Running total the test scores
+		   private int count;   //Number of test scores sampled
+		   private int highest; //Highest test score sampled
+		   private int lowest;  //Lowest test score sampled
+		   
+
+		   public void TestScoreStatistics()
+		   {
+		      this.total = 0;
+		      this.count = 0;
+		      this.highest = 0;
+		      this.lowest = 0;
+		   }
+
+		   //Accessor - returns the number of test scores sampled
+		   public int getCount()
+		   {
+		      return this.count;
+		   }
+		   
+		   //Accessor - returns the highest test score sampled
+		   public int getHighest()
+		   {
+		      return this.highest;
+		   }
+		   
+		   //Accessor - returns the lowest test score sampled
+		   public int getLowest()
+		   {
+		      return this.lowest;
+		   }
+		   
+		   //Returns the average of the test scores sampled
+		   public double average()
+		   {
+		      if (this.count == 0)
+		         return 0.0;
+		         
+		      return (double)this.total / this.count;
+		   }
+		   
+		   //Mutator - Adds a test score into the sample
+		   // @param score: a test score to be included into the sample
+		   public void addScore(int score)
+		   {
+		      if (score < 0 || score > 100)
+		         throw new RuntimeException("Invalid Test Score: " + score);
+		      
+		      this.count = this.count + 1;
+		      this.total = this.total + score;
+		      
+		      if (this.count == 1 || score > this.highest)
+		         this.highest = score;
+		      
+		      if (this.count == 1 || score < this.lowest)
+		         this.lowest = score;
+	
+	
+	
+	
+	}
+}
