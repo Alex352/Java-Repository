@@ -22,6 +22,5 @@ public class BowlingTeam {
 		public String getMember(int number)
 		{
 			return members[number];
-		}{
-}
+		}
 }
